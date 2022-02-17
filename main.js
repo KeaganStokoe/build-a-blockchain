@@ -56,3 +56,5 @@ class Blockchain {
 let stokesCoin = new Blockchain();
 stokesCoin.addBlock(new Block(1, "01/01/2022", { amount: 4 }));
 stokesCoin.addBlock(new Block(2, "01/01/2022", { amount: 10 }));
+
+console.log(JSON.stringify(stokesCoin, null, 4));
